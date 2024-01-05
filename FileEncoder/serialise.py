@@ -24,7 +24,7 @@ def file_to_json(input_path, output_path):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python script.py <input filename> <output filename>")
+        print("Usage: python serialise.py <input filename> <output filename>")
         return
 
     input_path = sys.argv[1]

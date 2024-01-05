@@ -28,7 +28,7 @@ def json_to_file(json_path):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python script.py <json_filename>")
+        print("Usage: python deserialise.py <json_filename>")
         return
 
     json_path = sys.argv[1]
